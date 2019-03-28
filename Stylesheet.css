@@ -1,3 +1,12 @@
-body{font-family: sans-serif; font-size: 15pt; line-height: 1.1}
-footer{font-family: serif; font-style: italic; font-size: 0.5em}
+body{font-family: sans-serif; font-size: 15pt; line-height: 1.1; background-color: black;
+  color: white;background-size: contain;}
+
+h1{text-align: center;}
+footer{font-family: serif; font-style: italic; font-size: 0.5em;}
 .fontvar {font-size: 5vw}
+a{color: blue}
+td{text-align: center;}
+.badexam{color: red}
+.goodexam{color: lime}
+
+.rotate{transform: rotate(90);}
