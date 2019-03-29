@@ -7,16 +7,13 @@
     <title>Libretto</title>
   </head>
   <body>
-    <p>
-      <table width="100%" border="10">
+      <table class="table">
+        <caption>Libretto dei voti</caption>
         <thead>
-          <h1>Libretto dei voti</h1>
+            <tr><td><h2>Esame</h2></td><td><h2>Voto</h2></td><td><h2>Data</h2></td></tr>
         </thead>
         <tbody>
-          <tr>
-            <td width="40%"><h2 >Esame</h2></td><td ><h2>Voto</h2></td><td ><h2>Data</h2></td>
-          </tr>
-            <tr><td class="goodexam">Analisi I</td><td class="goodexam">28</td><td >31/01/2017</td></tr>
+            <tr><td class="goodexam">Analisi I</td><td class="goodexam">28</td><td>31/01/2017</td></tr>
             <tr><td class="badexam">Analisi II</td><td class="badexam">19</td><td>19/02/2018</td></tr>
             <tr><td class="badexam">Fisica I</td><td class="badexam">18</td><td>07/07/2017</td></tr>
             <tr><td class="badexam">Fisica II</td><td class="badexam">21</td><td>05/09/2018</td></tr>
@@ -27,19 +24,22 @@
             <tr><td class="badexam">Algebra lineare e Geometria</td><td class="badexam">23</td><td>23/06/2017</td></tr>
         </tbody>
       </table>
-    </p>
 
     <p>
-      <b><a href="curriculum.html">Curriculum </a></b>
       <b><a href="HomePage.html">Home page </a></b>
+      <b><a href="curriculum.html">Curriculum </a></b>
     </p>
 
     <figure>
-      <img src="html5.png" width="4%" height="4%">
-      <img src="http://security.polito.it/img/polito.gif" alt="logo poli" usemap="#logopoli"><br>
-      <map name="logopoli"><br>
-        <area shape="rect" coords="0,0,50,100" href="https://www.polito.it/" alt=""/>
-        <area shape="rect" coords="0,50,100,100" href="http://www.comune.torino.it/" alt=""/>
+      <img src="html5.png" alt="html5_logo" width="40" height="40">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" width="30" height="30" alt="Facebook logo " usemap="#fblogo">
+      <img src="https://www.iconfinder.com/icons/1620013/download/png/512" width="30" height="30" alt="Instagram logo" usemap="#iglogo">
+
+      <map name="fblogo">
+        <area shape="rect" coords="0,0,100,100" href="https://www.polito.it/" alt="Profilo facebook"/>
+      </map>
+      <map name="iglogo">
+        <area shape="rect" coords="0,0,100,100" href="https://www.instagram.com/niccolovianello" alt="Profilo instagram">
       </map>
     </figure>
 
